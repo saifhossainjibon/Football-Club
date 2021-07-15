@@ -101,13 +101,6 @@ hr{
     border: 1px solid #2D25A0;
     margin:0 50px;
 }
-.news:hover img{
-    transform: scale(1.5);
-    transition: transform 2s ease-in-out;
-}
-.news:hover .all-news-vedio{
-    display: block;
-}
 /* footer section style */
 footer{
     margin-bottom: 50px;
@@ -138,15 +131,15 @@ footer{
 /* media queries */
 @media only screen and (max-width:810){
 .container{
-display: block;
-align-items: center;
+width: 100%;
+
     }
-.players {
-        display: grid;
+.players {  
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 27px;
-}
+    }
+    .player{
+        flex-direction: column;
+    }
 }
     
 
