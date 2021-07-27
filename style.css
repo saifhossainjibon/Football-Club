@@ -46,15 +46,15 @@ a{
     }
    /* All players name, info & img styles   */
 .all-players{
-    margin: 70px 220px 58px 210px ;
+    margin: 70px 240px 58px 240px ;
 }
 
 
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px ;
-    grid-row-gap: 27px;
+    grid-column-gap: 35px ;
+    grid-row-gap: 35px;
 }
 .player{
     padding: 15px;
@@ -62,8 +62,9 @@ a{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player img{
-    width: 310px;
-    height: 266px;
+    width: 420px;
+    height: 356px;
+    object-fit:;
 }
 
 .player-name{
@@ -75,12 +76,12 @@ a{
 .player-info{
     color: #6C6C6C;    
     font-weight: 400;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 26px;
 }
 /* all news and vedio styles */
 .all-news-vedio{
-    margin: 40px 220px 100px 210px ;
+    margin: 40px 240px 100px 240px ;
 }
 .news-here{
     display: grid;
@@ -94,8 +95,8 @@ a{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .news img{
-    width: 315px;
-    height: 180px;
+    width: 420px;
+    height: 250px;
 }
 hr{
     border: 1px solid #2D25A0;
